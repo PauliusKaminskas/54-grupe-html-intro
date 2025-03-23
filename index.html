@@ -3,17 +3,48 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="./favicon.ico" />
+        <link
+            rel="icon"
+            type="image/png"
+            href="/favicon-96x96.png"
+            sizes="96x96"
+        />
+        <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./favicon/apple-touch-icon.png"
+        />
+        <meta
+            name="apple-mobile-web-app-title"
+            content="Projekto pavadinimas"
+        />
+        <link rel="manifest" href="./favicon/site.webmanifest" />
         <title>Projekto pavadinimas</title>
+        <link rel="stylesheet" href="./css/font-awesome.min.css" />
+        <link rel="stylesheet" href="./css/main.css" />
     </head>
     <body>
-        <h1>Pati svarbiausia antraste</h1>
-        <!-- CONTENT-->
-        <p>Labas</p>
-        <p><img src="logo.jpg" alt="Paveikslelis neveikia" /></p>
-        <p><a href="https://www.w3schools.com">Visit W3Schools.com!</a></p>
+        <main>
+            <h1 class="heading">Pati svarbiausia antraste</h1>
+            <!-- CONTENT-->
+            <p class="text">Labas</p>
+            <p class="photo">
+                <img src="./img/logo.webp" alt="Paveikslelis neveikia" />
+            </p>
+            <p class="link">
+                <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+            </p>
+        </main>
         <footer>
-            <p>Author: Hege Refsnes</p>
-            <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+            <p class="author fa fa-user-circle-o">Author: Hege Refsnes</p>
+            <p class="email">
+                <a class="reference" href="mailto:hege@example.com"
+                    ><i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                    hege@example.com</a
+                >
+            </p>
         </footer>
     </body>
 </html>

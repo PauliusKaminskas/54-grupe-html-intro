@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Offside;
+    src: url(../fonts/Offside/Offside-Regular.ttf);
+    font-weight: normal;
+}
+body {
+    background-color: #06f9d4;
+    width: var(--w);
+    --w: 800px;
+    margin: 50px calc((100% - var(--w)) / 2);
+    font-family: Offside;
+}
+main {
+    text-align: center;
+}
+footer {
+    text-align: right;
+}
+.reference {
+    text-decoration: none;
+}
